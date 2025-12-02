@@ -2,26 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>RANGU RAMYASREE - Resume</title>
   <style>
-    /* @media (max-width: 600px) {
-  .resume-container {
-    box-sizing: border-box;
-    padding-left:5%;
-    padding-right: 5%;
-  }
-} */
+   
     body {
       font-family: 'Calibri', sans-serif;
-      margin: 40px;
+      /* margin: 40px; */
+      margin: 0;
       color: #000;
       background: #fff;
-      line-height: 1.5;
-      padding-left:5%;
-      padding-right: 5%;
+      /* line-height: 1.5; */
+      padding: 0;
+      /* padding-left:5%;
+      padding-right: 5%; */
     }
+    .resume-container {
+      max-width: 800px;
+      width: 90%;
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+    }
+
     h1 {
       text-align: center;
       color: #0066cc;
@@ -30,7 +35,7 @@
     .contact {
       text-align: center;
       margin-top: 5px;
-      font-size: 16px;
+      font-size: 14px;
     }
     .contact a {
       color: #0066cc;
@@ -62,6 +67,32 @@
     a {
       color: #0066cc;
       text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      h1{
+        font-size: 1.6rem;
+      }
+
+      .resume-container {
+        padding: 15px;
+      }
+
+      .contact {
+        font-size: 0.9rem;
+      }
+      .section{
+        font-size: 0.7rem;
+      }
+      h1{
+        font-size: 1rem;
+      }
+      h2 {
+        font-size: 0.9rem;
+      }
+      .contact{
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
